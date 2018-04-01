@@ -25,8 +25,8 @@ $(document).ready(function () {
                     var gifDiv = $("<div class='item'>");
                     var rating = results[i].rating;
                     var p = $("<p>").text("Rating: " + rating);
-                    var stillGif = results[i].images.original_still.url;
-                    var animatedGif = results[i].images.original.url;
+                    var stillGif = results[i].images.fixed_width_still.url;
+                    var animatedGif = results[i].images.fixed_width.url;
                     var gifImage = $("<img>");
 
                     gifImage.attr({
