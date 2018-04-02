@@ -9,28 +9,36 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Carter+One|Fascinate+Inline|Freckle+Face|Press+Start+2P|Rammetto+One|Shrikhand|Sigmar+One" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>GifTastic!!</title>
+
+
 </head>
 
 <body>
 
-    <div class="container">
-        <div id="buttons"></div>
-
-        <form id="gif-form">
-            <label for="topic-input">Add a reaction term.</label>
-            <input type="text" id="topic-input">
-            <br>
-            <input id="add-reaction" type="submit" value="Submit">
-        </form>
-
-        <div id="gifs"></div>
-
-        
-    </div>
-
-
+        <div class="container">
+            <div class="header"><h1>GifTastic!</h1></div>
+        </div>
+        <div class="container">
+            <div class="form-area">
+                <h2>Add a feeling.</h2>
+                <form class="pure-form" id="gif-form">
+                    <input type="text" id="topic-input">
+                    <input id="add-reaction" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <div class="container" id="button-cont">
+            <div class="buttons" id="buttons"></div>
+        </div>
+        <div class="wrapper" id="gifs">
+            
+        </div>
 
     <script src="assets/javascript/gif.js"></script>
 
